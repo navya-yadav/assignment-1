@@ -1,0 +1,13 @@
+def add_numbers(a,b):
+    print(a+b)
+def sub_numbers(a,b):
+    print(a-b)
+def mul_numbers(a,b):
+    print(a*b)
+
+if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+    add_numbers(a,b)
+    sub_numbers(a,b)
+    mul_numbers(a,b)
